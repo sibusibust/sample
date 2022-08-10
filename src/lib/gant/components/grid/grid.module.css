@@ -1,0 +1,17 @@
+/* カレンダーの各セル背景 */
+.gridRow {
+  fill: #fff;
+}
+
+/* カレンダーの各セル背景と同じ */
+.gridRow:nth-child(even) {
+  fill: #f5f5f5;
+}
+
+.gridRowLine {
+  stroke: #ebeff2;
+}
+
+.gridTick {
+  stroke: #e6e4e4;
+}

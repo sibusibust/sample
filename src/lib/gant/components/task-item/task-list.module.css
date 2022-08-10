@@ -1,0 +1,25 @@
+/* ガントチャート部のタスク名文字色(タスク内に収まる場合) */
+.barLabel {
+  fill: #fff;
+  text-anchor: middle;
+  font-weight: lighter;
+  dominant-baseline: central;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* ガントチャート部のタスク名文字色(タスク外にはみ出る場合) */
+.barLabelOutside {
+  fill: #555;
+  text-anchor: start;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}

@@ -1,0 +1,50 @@
+.taskListWrapper {
+  display: table;
+  border-bottom: #e6e4e4 1px solid;
+  border-left: #e6e4e4 1px solid;
+}
+
+.taskListTableRow {
+  display: table-row;
+  text-overflow: ellipsis;
+}
+
+.taskListTableRow:nth-of-type(even) {
+  background-color: #f5f5f5;
+}
+
+.taskListCellWbs {
+  padding: "400px";
+  display: table-cell;
+  vertical-align: middle;
+  white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.taskListCell {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.taskListNameWrapper {
+  display: flex;
+}
+
+/* エクスパンダ（三角形） */
+.taskListExpander {
+  /* color: rgb(86 86 86); */
+  color: rgb(16 86 86);
+  font-size: 0.6rem;
+  padding: 0.15rem 0.2rem 0rem 0.2rem;
+  /* padding: 0.15rem 0.2rem 0rem 0.2rem; */
+  user-select: none;
+  cursor: pointer;
+}
+.taskListEmptyExpander {
+  font-size: 0.6rem;
+  padding-left: 1rem;
+  user-select: none;
+}
